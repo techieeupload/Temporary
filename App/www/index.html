@@ -181,9 +181,9 @@
             <div data-role="panel" id="navpanel" data-theme="a" data-display="overlay" data-position="left" 
                  style="top: 45px;background-color: #e6e6e6;">
                 <div data-role="controlgroup" data-corners="false"> 
-                    <div id="1" class="paneldiv">View Client Data</div>
-                    <div id="2" class="paneldiv">View Application Errors</div>
-                    <div id="3" class="paneldiv">Provide Access Roles</div>
+                    <div id="1" class="paneldiv" onclick="navigateToPage('client')">View Client Data</div>
+                    <div id="2" class="paneldiv" onclick="navigateToPage('errors')">View Application Errors</div>
+                    <div id="3" class="paneldiv" onclick="navigateToPage('access')">Provide Access Roles</div>
                     <div id="4" class="paneldiv" onclick="showLogoutPopUp()">Logout</div>
 
                 </div>
